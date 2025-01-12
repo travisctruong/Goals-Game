@@ -1,0 +1,66 @@
+body {
+    background-color: #2F3C7E;
+}
+
+#main-container {
+
+}
+
+#title-container {
+    text-align: center;
+}
+#title-container div h1 {
+    color:white;
+}
+#title-container div h4 {
+    color: lightgrey;
+}
+
+#score-container {
+    text-align: center;
+}
+
+#refresh-button {
+    background-color: #2F3C7E;
+    color: white;
+    border: 2px solid gold;
+    transition-duration: .25s;
+    width: 80px;
+    height: 20px;
+    border-radius: 7.5px;
+}
+#refresh-button:hover {
+    transform: translateY(-3px);
+}
+
+#player-picture {
+    text-align: center;
+}
+#player-picture img {
+    width: 160px;
+    height: 160px;
+}
+
+#player-name {
+    text-align: center;
+}
+
+.buttons-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.goals-buttons {
+    background-color: #2F3C7E;
+    color: white;
+    border: 2px solid gold;
+    transition-duration: .25s;
+    width: 25%;
+    height: 8%;
+    font-size: 20px;
+    border-radius: 7.5px;
+}
+.goals-buttons:hover {
+    transform: translateY(-3px);
+}
+
