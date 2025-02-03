@@ -3,7 +3,7 @@ body {
 }
 
 #main-container {
-
+    
 }
 
 #title-container {
@@ -20,6 +20,14 @@ body {
     text-align: center;
 }
 
+#score {
+    color: red;
+}
+
+#refresh-container {
+    text-align: center;
+}
+
 #refresh-button {
     background-color: #2F3C7E;
     color: white;
@@ -29,14 +37,11 @@ body {
     height: 20px;
     border-radius: 7.5px;
 }
-#refresh-button:hover {
-    transform: translateY(-3px);
-}
 
 #player-picture {
     text-align: center;
 }
-#player-picture img {
+#photo {
     width: 160px;
     height: 160px;
 }
@@ -50,7 +55,7 @@ body {
     margin-top: 10px;
 }
 
-.goals-buttons {
+.career-button {
     background-color: #2F3C7E;
     color: white;
     border: 2px solid gold;
@@ -60,7 +65,52 @@ body {
     font-size: 20px;
     border-radius: 7.5px;
 }
-.goals-buttons:hover {
+
+.double-button {
+    background-color: #2F3C7E;
+    color: white;
+    border: 2px solid gold;
+    transition-duration: .25s;
+    width: 25%;
+    height: 8%;
+    font-size: 20px;
+    border-radius: 7.5px;
+}
+
+.triple-button {
+    background-color: #2F3C7E;
+    color: white;
+    border: 2px solid gold;
+    transition-duration: .25s;
+    width: 25%;
+    height: 8%;
+    font-size: 20px;
+    border-radius: 7.5px;
+}
+
+#quadruple-button {
+    background-color: #2F3C7E;
+    color: white;
+    border: 2px solid gold;
+    transition-duration: .25s;
+    width: 25%;
+    height: 8%;
+    font-size: 20px;
+    border-radius: 7.5px;
+}
+
+#quintuple-button {
+    background-color: #2F3C7E;
+    color: white;
+    border: 2px solid gold;
+    transition-duration: .25s;
+    width: 25%;
+    height: 8%;
+    font-size: 20px;
+    border-radius: 7.5px;
+}
+
+button:hover {
     transform: translateY(-3px);
 }
 
